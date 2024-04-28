@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
-  "name": "Remove Linear Gradients",
+  "name": "Dark Overlay Remover",
   "version": "1.0",
-  "description": "Replaces linear gradients in CSS backgrounds with 'none'.",
+  "description": "Remove dark overlays from videos.",
   "permissions": [
     "activeTab",
-      "tabs",
+    "tabs",
     "http://*/",
     "https://*/"
   ],
