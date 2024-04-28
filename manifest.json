@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Remove Linear Gradients",
+  "version": "1.0",
+  "description": "Replaces linear gradients in CSS backgrounds with 'none'.",
+  "permissions": [
+    "activeTab",
+      "tabs",
+    "http://*/",
+    "https://*/"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
