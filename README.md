@@ -12,7 +12,7 @@ If you just want to use the extension, go to https://addons.mozilla.org/en-US/fi
 
 ## Dev Installation
 
-If you want to install this for development, clone the repository.  Then in Firefox go to navigate to about:debugging#/runtime/this-firefox, click "Load Temporary Add-On" and select the manifest.json file.
+If you want to install this for development, checkout or clone the repository.  Then in Firefox navigate to about:debugging#/runtime/this-firefox, click "Load Temporary Add-On" and select the manifest.json file.
 Whenever you update the code, you might need click "Reload".  I believe there are ways to automate this but I wrote this in 30 minutes and didn't bother figuring it out.
 
 ## Issues
